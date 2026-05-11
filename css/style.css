@@ -227,7 +227,7 @@ p{
     border-radius: 999px;
     box-shadow: var(--sombra-suave);
 }
-.cabecera p{
+.cabecera strong{
     font-size: 12px;
     letter-spacing: 0.7px;
     color: #6d5f45;
@@ -374,18 +374,18 @@ p{
     .contenido-principal-grind{
        padding: 10px;
     }
-    .cabecera{
+    .cabecera {
         width: 100%;
-        padding: 6px 12px;
-        
-    }
-    .cabecera p strong{
         display: flex;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 12px;
     }
+    .cabecera strong {
+        text-align: center;
+        font-size: 11px;
+        padding: 2px 5px;
+
+    }
+    
     .contenido-principal-grind h1{
         font-size: 40px;
         line-height: 1.2;
