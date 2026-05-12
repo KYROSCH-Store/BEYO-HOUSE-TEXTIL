@@ -46,7 +46,7 @@ h1{
 
 h2{
     color: var(--h2);
-    font-size: 28px;
+    font-size: 35px;
 }
 
 p{
@@ -477,4 +477,119 @@ p{
     .info-extra{
         width: 100%;
     }
+}
+.personas-seccion {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 50px;
+    gap: 15px;
+}
+.minititulo {
+    color: var(--detalles-premiun);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+hr{
+    width: 30%;
+    margin: 0 auto;
+}
+.personas-seccion h2{
+    color: var(--h2);
+    text-align: center;
+    font-weight: 800;
+}
+.personas-seccion span{
+    color: var(--detalles-premiun);
+}
+.personas-seccion p {
+    color: var(--p);
+    font-size: 16px;
+    text-align: center;
+}
+.personas-contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.persona{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.icono-persona{
+    position: absolute;
+    left: 50%;
+    top:153px;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--h2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.icono-persona svg{
+    width: 40px;
+    height: 40px;
+    stroke: var(--detalles-premiun);
+}
+.persona img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.persona h3{
+    color: var(--h2);
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.persona p{
+    color: var(--p);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px){
+    .personas-seccion{
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    .minititulo{
+        font-size: 14px;
+    }
+    hr {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .personas-seccion h2{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .personas-seccion p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .personas-contenedor{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 0;
+
+    }
+    .persona{
+        width: 100%;
+        height: auto;
+
+    }
+
 }
