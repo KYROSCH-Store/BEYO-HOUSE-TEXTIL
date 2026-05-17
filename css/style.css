@@ -604,3 +604,21 @@ hr{
     margin-bottom: 10px;
     color: var(--detalles-premiun) !important;
 }
+.testimonios-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    margin-top: 20px;
+}
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    background: var(--cuadros-card);
+    border-radius: 20px;
+}
+.testimonio img {
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+    object-fit: cover;
+}
