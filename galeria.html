@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | BEYO HOUSE</title>
+    <link rel="stylesheet" href="css/galeria.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo-contenedor">
+                <img src="img/logo.svg" alt="Logo BEYO HOUSE">
+                <span>BEYO HOUSE</span>
+            </a>
+
+            <button class="boton-menu" id="boton-menu" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a class="activo" href="galeria.html">Galería</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+
+            <a class="btn-principal" target="_blank" href="https://wa.me/51915204104?text=Hola%20Beyo%20House%2C%20estoy%20interesado%20en%20cotizar%20un%20proyecto.">
+                Cotizar Ahora
+            </a>
+        </nav>
+    </header>
+
+    <main class="hero-pagina hero-galeria">
+        <section class="hero-contenido">
+            <aside class="cabecera"><strong>PORTAFOLIO TEXTIL · PROYECTOS REALES</strong></aside>
+            <h1>Galería de <span>trabajos textiles</span> con acabado profesional</h1>
+            <p>Explora prendas, uniformes, bordados, estampados y producciones realizadas para instituciones, empresas, marcas y equipos.</p>
+            <div class="hero-acciones">
+                <a class="btn-principal" href="contactos.html"><i data-lucide="send"></i> Solicitar propuesta</a>
+                <a class="btn-segundario" href="servicios.html">Ver servicios</a>
+            </div>
+        </section>
+    </main>
+
+    <section class="bloque-intro">
+        <span class="minititulo">NUESTRA ESPECIALIDAD</span>
+        <hr>
+        <h2>PRENDAS QUE COMUNICAN <br><span>IDENTIDAD Y CALIDAD</span></h2>
+        <p>Cada proyecto se trabaja con atención al diseño, elección de materiales, precisión en confección y revisión final antes de la entrega.</p>
+    </section>
+
+    <section class="filtros-galeria" aria-label="Categorías de galería">
+        <button class="filtro-activo">Todo</button>
+        <button>Uniformes</button>
+        <button>Bordados</button>
+        <button>Deportivo</button>
+        <button>Empresarial</button>
+        <button>Promocional</button>
+    </section>
+
+    <section class="galeria-grid">
+        <article class="item-galeria item-destacado">
+            <img src="img/galeria/uniformes-escolares.jpg" alt="Uniformes escolares confeccionados por BEYO HOUSE">
+            <div class="overlay-galeria">
+                <span>Uniformes escolares</span>
+                <h3>Confección resistente para uso diario</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/polos-deportivos.jpg" alt="Polos deportivos personalizados">
+            <div class="overlay-galeria">
+                <span>Deportivo</span>
+                <h3>Polos para equipos y eventos</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/bordado-logo.jpg" alt="Bordado de logo sobre prenda">
+            <div class="overlay-galeria">
+                <span>Bordado</span>
+                <h3>Logos nítidos y duraderos</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/uniforme-medico.jpg" alt="Uniformes médicos para clínicas y hospitales">
+            <div class="overlay-galeria">
+                <span>Salud</span>
+                <h3>Uniformes cómodos e higiénicos</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/casacas-empresariales.jpg" alt="Casacas empresariales personalizadas">
+            <div class="overlay-galeria">
+                <span>Empresas</span>
+                <h3>Imagen corporativa en cada detalle</h3>
+            </div>
+        </article>
+        <article class="item-galeria item-alto">
+            <img src="img/galeria/produccion-textil.jpg" alt="Producción textil en taller">
+            <div class="overlay-galeria">
+                <span>Producción</span>
+                <h3>Procesos ordenados para entregas por volumen</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/merch-promocional.jpg" alt="Productos textiles promocionales">
+            <div class="overlay-galeria">
+                <span>Promocional</span>
+                <h3>Merchandising para marcas</h3>
+            </div>
+        </article>
+        <article class="item-galeria">
+            <img src="img/galeria/acabados-premium.jpg" alt="Detalle de acabado premium en prenda">
+            <div class="overlay-galeria">
+                <span>Acabados</span>
+                <h3>Terminaciones limpias y profesionales</h3>
+            </div>
+        </article>
+    </section>
+
+    <section class="proyecto-destacado">
+        <div class="proyecto-texto">
+            <span class="minititulo">PROYECTO DESTACADO</span>
+            <h2>Uniformes completos para instituciones</h2>
+            <p>Desarrollamos prendas desde la propuesta visual hasta la entrega final, cuidando tallas, materiales, bordado, color y presentación.</p>
+            <ul>
+                <li><i data-lucide="check"></i> Asesoría en diseño y materiales</li>
+                <li><i data-lucide="check"></i> Producción por tallas y cantidades</li>
+                <li><i data-lucide="check"></i> Control de calidad antes de entrega</li>
+            </ul>
+        </div>
+        <div class="proyecto-imagen">
+            <img src="img/galeria/proyecto-destacado.jpg" alt="Proyecto destacado de uniformes BEYO HOUSE">
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <h2>¿Quieres que tu proyecto aparezca aquí?</h2>
+        <p>Cuéntanos qué prenda necesitas y prepararemos una propuesta a medida para tu marca, institución o equipo.</p>
+        <a class="btn-principal" target="_blank" href="https://wa.me/51915204104?text=Hola%20Beyo%20House%2C%20quiero%20cotizar%20un%20proyecto%20textil.">
+            <i data-lucide="message-circle"></i> Escribir por WhatsApp
+        </a>
+    </section>
+
+    <script>
+        const boton = document.getElementById("boton-menu");
+        const menu = document.getElementById("nav-menu");
+        boton.addEventListener("click", () => {
+            boton.classList.toggle("active");
+            menu.classList.toggle("active");
+        });
+        lucide.createIcons();
+    </script>
+</body>
+</html>

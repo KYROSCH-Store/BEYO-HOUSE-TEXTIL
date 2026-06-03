@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | BEYO HOUSE</title>
+    <link rel="stylesheet" href="css/contactos.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo-contenedor">
+                <img src="img/logo.svg" alt="Logo BEYO HOUSE">
+                <span>BEYO HOUSE</span>
+            </a>
+
+            <button class="boton-menu" id="boton-menu" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a class="activo" href="contactos.html">Contacto</a></li>
+            </ul>
+
+            <a class="btn-principal" target="_blank" href="https://wa.me/51915204104?text=Hola%20Beyo%20House%2C%20estoy%20interesado%20en%20cotizar%20un%20proyecto.">
+                Cotizar Ahora
+            </a>
+        </nav>
+    </header>
+
+    <main class="hero-pagina hero-contacto">
+        <section class="hero-contenido">
+            <aside class="cabecera"><strong>CONTACTO · ASESORÍA TEXTIL PERSONALIZADA</strong></aside>
+            <h1>Hablemos de tu <span>próximo proyecto textil</span></h1>
+            <p>Escríbenos para cotizar uniformes, polos, bordados, estampados, prendas empresariales o producción por volumen en Ayacucho.</p>
+            <div class="hero-acciones">
+                <a class="btn-principal" target="_blank" href="https://wa.me/51915204104?text=Hola%20Beyo%20House%2C%20quiero%20cotizar%20un%20proyecto."><i data-lucide="message-circle"></i> WhatsApp directo</a>
+                <a class="btn-segundario" href="#formulario">Enviar solicitud</a>
+            </div>
+        </section>
+    </main>
+
+    <section class="contacto-rapido">
+        <article>
+            <i data-lucide="phone-call"></i>
+            <h3>Teléfono / WhatsApp</h3>
+            <p>+51 915 204 104</p>
+            <a target="_blank" href="https://wa.me/51915204104">Escribir ahora</a>
+        </article>
+        <article>
+            <i data-lucide="map-pin"></i>
+            <h3>Ubicación</h3>
+            <p>Huamanga, Ayacucho</p>
+            <a href="#ubicacion">Ver referencia</a>
+        </article>
+        <article>
+            <i data-lucide="clock"></i>
+            <h3>Atención</h3>
+            <p>Lunes a sábado · 9:00 a. m. - 7:00 p. m.</p>
+            <a href="#formulario">Agendar consulta</a>
+        </article>
+    </section>
+
+    <section class="contacto-layout" id="formulario">
+        <div class="formulario-card">
+            <span class="minititulo">SOLICITA TU COTIZACIÓN</span>
+            <h2>Envíanos los detalles</h2>
+            <p>Mientras más información nos compartas, más precisa será la propuesta: tipo de prenda, cantidad, tallas, fecha de entrega y personalización.</p>
+
+            <form>
+                <div class="campo-doble">
+                    <label>
+                        Nombre completo
+                        <input type="text" name="nombre" placeholder="Ej. Ana Quispe">
+                    </label>
+                    <label>
+                        Teléfono
+                        <input type="tel" name="telefono" placeholder="Ej. 915 204 104">
+                    </label>
+                </div>
+                <label>
+                    Tipo de servicio
+                    <select name="servicio">
+                        <option>Confección textil</option>
+                        <option>Bordado</option>
+                        <option>Estampado textil</option>
+                        <option>Uniformes empresariales</option>
+                        <option>Producción por volumen</option>
+                    </select>
+                </label>
+                <label>
+                    Mensaje
+                    <textarea name="mensaje" rows="6" placeholder="Cuéntanos qué prendas necesitas, cantidades, tallas y fecha aproximada de entrega."></textarea>
+                </label>
+                <button class="btn-principal" type="submit"><i data-lucide="send"></i> Enviar solicitud</button>
+            </form>
+        </div>
+
+        <aside class="detalle-contacto">
+            <div class="dato-premium">
+                <i data-lucide="badge-check"></i>
+                <h3>Respuesta cercana y clara</h3>
+                <p>Te orientamos con materiales, procesos y opciones de acabado según el uso de tus prendas.</p>
+            </div>
+            <div class="dato-premium">
+                <i data-lucide="ruler"></i>
+                <h3>Cotización con criterio</h3>
+                <p>Evaluamos cantidades, tallas, personalización y tiempos para darte una propuesta realista.</p>
+            </div>
+            <div class="dato-premium">
+                <i data-lucide="package-check"></i>
+                <h3>Entrega cuidada</h3>
+                <p>Revisamos las prendas antes de entregarlas para mantener una presentación profesional.</p>
+            </div>
+        </aside>
+    </section>
+
+    <section class="ubicacion" id="ubicacion">
+        <div>
+            <span class="minititulo">VISÍTANOS</span>
+            <h2>Estamos en Ayacucho</h2>
+            <p>Coordinamos atención, muestras y entregas según el tipo de proyecto. Puedes reemplazar este bloque por un mapa real de Google Maps cuando tengas el enlace.</p>
+        </div>
+        <div class="mapa-placeholder">
+            <i data-lucide="map"></i>
+            <span>Mapa / Referencia del taller</span>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <h2>¿Necesitas una respuesta rápida?</h2>
+        <p>La forma más directa de coordinar medidas, cantidades y fechas es escribirnos por WhatsApp.</p>
+        <a class="btn-principal" target="_blank" href="https://wa.me/51915204104?text=Hola%20Beyo%20House%2C%20necesito%20información%20sobre%20sus%20servicios.">
+            <i data-lucide="message-circle"></i> Contactar ahora
+        </a>
+    </section>
+
+    <script>
+        const boton = document.getElementById("boton-menu");
+        const menu = document.getElementById("nav-menu");
+        boton.addEventListener("click", () => {
+            boton.classList.toggle("active");
+            menu.classList.toggle("active");
+        });
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+@import url("beyo-base.css");
+
+:root{
+    --hero-image: url("../img/galeria/hero-galeria.jpg");
+}
