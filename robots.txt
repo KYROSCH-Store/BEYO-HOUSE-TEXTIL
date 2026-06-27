@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://beyo-house.vimosdigital.com/sitemap.xml

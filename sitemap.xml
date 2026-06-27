@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Inicio -->
   <url>
-    <loc>https://beyohouse.com/</loc>
+    <loc>https://beyo-house.vimosdigital.com</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
   
   <!-- Nosotros -->
   <url>
-    <loc>https://beyohouse.com/nosotros</loc>
+    <loc>https://beyo-house.vimosdigital.com/nosotros</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
   
   <!-- Servicios -->
   <url>
-    <loc>https://beyohouse.com/servicios</loc>
+    <loc>https://beyo-house.vimosdigital.com/servicios</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -26,7 +26,7 @@
   
   <!-- Galería -->
   <url>
-    <loc>https://beyohouse.com/galeria</loc>
+    <loc>https://beyo-house.vimosdigital.com/galeria</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -34,7 +34,7 @@
   
   <!-- Contacto -->
   <url>
-    <loc>https://beyohouse.com/contacto</loc>
+    <loc>https://beyo-house.vimosdigital.com/contactos</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
